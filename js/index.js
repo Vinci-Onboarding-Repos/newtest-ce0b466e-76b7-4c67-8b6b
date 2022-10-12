@@ -1,7 +1,7 @@
 
 const VINCI_ENV = sessionStorage.getItem('vinciEnv');
 const BASE_URL = VINCI_ENV === 'dev' ? 'http://localhost:5001/vinci-dev-6e577/us-central1/publicApi/public' :
-    'https://us-central1-vinci-prod.cloudfunctions.net/publicApi/public';
+    'http://localhost:5001/vinci-dev-6e577/us-central1/publicApi/public';
 const PROJECT_ID = ''
 const Web3Modal = window.Web3Modal.default;
 const WalletConnectProvider = window.WalletConnectProvider.default;
